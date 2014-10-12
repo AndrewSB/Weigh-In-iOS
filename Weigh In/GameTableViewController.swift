@@ -8,8 +8,8 @@
 
 import UIKit
 
-class GameTableViewController: UITableViewController {
-
+class GameTableViewController: UITableViewController, UITableViewDataSource, UITableViewDelegate {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -17,7 +17,7 @@ class GameTableViewController: UITableViewController {
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
 
     override func didReceiveMemoryWarning() {
@@ -27,27 +27,22 @@ class GameTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSectionsInTableView(tableView: UITableView!) -> Int {
-        // #warning Potentially incomplete method implementation.
-        // Return the number of sections.
-        return 0
+    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
     }
 
-    override func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete method implementation.
-        // Return the number of rows in the section.
-        return 0
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 2
     }
 
-    /*
-    override func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell! {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as UITableViewCell
+    
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier("cellID", forIndexPath: indexPath) as UITableViewCell
 
-        // Configure the cell...
 
         return cell
     }
-    */
+
 
     /*
     // Override to support conditional editing of the table view.
