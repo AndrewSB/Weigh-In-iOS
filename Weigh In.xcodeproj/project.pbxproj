@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46CDFA741A34F2D100D45AAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDFA731A34F2D100D45AAD /* AppDelegate.swift */; };
+		46CDFA761A34F2D100D45AAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDFA751A34F2D100D45AAD /* ViewController.swift */; };
+		46CDFA791A34F2D100D45AAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46CDFA771A34F2D100D45AAD /* Main.storyboard */; };
+		46CDFA7B1A34F2D100D45AAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46CDFA7A1A34F2D100D45AAD /* Images.xcassets */; };
+		46CDFA7E1A34F2D100D45AAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46CDFA7C1A34F2D100D45AAD /* LaunchScreen.xib */; };
+		46CDFA8A1A34F2D100D45AAD /* Weigh_InTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDFA891A34F2D100D45AAD /* Weigh_InTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46CDFA841A34F2D100D45AAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46CDFA661A34F2D100D45AAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46CDFA6D1A34F2D100D45AAD;
+			remoteInfo = "Weigh In";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46CDFA6E1A34F2D100D45AAD /* Weigh In.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weigh In.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46CDFA721A34F2D100D45AAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46CDFA731A34F2D100D45AAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46CDFA751A34F2D100D45AAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46CDFA781A34F2D100D45AAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46CDFA7A1A34F2D100D45AAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		46CDFA7D1A34F2D100D45AAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		46CDFA831A34F2D100D45AAD /* Weigh InTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weigh InTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46CDFA881A34F2D100D45AAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46CDFA891A34F2D100D45AAD /* Weigh_InTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weigh_InTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46CDFA6B1A34F2D100D45AAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46CDFA801A34F2D100D45AAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46CDFA651A34F2D100D45AAD = {
+			isa = PBXGroup;
+			children = (
+				46CDFA701A34F2D100D45AAD /* Weigh In */,
+				46CDFA861A34F2D100D45AAD /* Weigh InTests */,
+				46CDFA6F1A34F2D100D45AAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46CDFA6F1A34F2D100D45AAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46CDFA6E1A34F2D100D45AAD /* Weigh In.app */,
+				46CDFA831A34F2D100D45AAD /* Weigh InTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46CDFA701A34F2D100D45AAD /* Weigh In */ = {
+			isa = PBXGroup;
+			children = (
+				46CDFA731A34F2D100D45AAD /* AppDelegate.swift */,
+				46CDFA751A34F2D100D45AAD /* ViewController.swift */,
+				46CDFA771A34F2D100D45AAD /* Main.storyboard */,
+				46CDFA7A1A34F2D100D45AAD /* Images.xcassets */,
+				46CDFA7C1A34F2D100D45AAD /* LaunchScreen.xib */,
+				46CDFA711A34F2D100D45AAD /* Supporting Files */,
+			);
+			path = "Weigh In";
+			sourceTree = "<group>";
+		};
+		46CDFA711A34F2D100D45AAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46CDFA721A34F2D100D45AAD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46CDFA861A34F2D100D45AAD /* Weigh InTests */ = {
+			isa = PBXGroup;
+			children = (
+				46CDFA891A34F2D100D45AAD /* Weigh_InTests.swift */,
+				46CDFA871A34F2D100D45AAD /* Supporting Files */,
+			);
+			path = "Weigh InTests";
+			sourceTree = "<group>";
+		};
+		46CDFA871A34F2D100D45AAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46CDFA881A34F2D100D45AAD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46CDFA6D1A34F2D100D45AAD /* Weigh In */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46CDFA8D1A34F2D100D45AAD /* Build configuration list for PBXNativeTarget "Weigh In" */;
+			buildPhases = (
+				46CDFA6A1A34F2D100D45AAD /* Sources */,
+				46CDFA6B1A34F2D100D45AAD /* Frameworks */,
+				46CDFA6C1A34F2D100D45AAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Weigh In";
+			productName = "Weigh In";
+			productReference = 46CDFA6E1A34F2D100D45AAD /* Weigh In.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46CDFA821A34F2D100D45AAD /* Weigh InTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46CDFA901A34F2D100D45AAD /* Build configuration list for PBXNativeTarget "Weigh InTests" */;
+			buildPhases = (
+				46CDFA7F1A34F2D100D45AAD /* Sources */,
+				46CDFA801A34F2D100D45AAD /* Frameworks */,
+				46CDFA811A34F2D100D45AAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46CDFA851A34F2D100D45AAD /* PBXTargetDependency */,
+			);
+			name = "Weigh InTests";
+			productName = "Weigh InTests";
+			productReference = 46CDFA831A34F2D100D45AAD /* Weigh InTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46CDFA661A34F2D100D45AAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = asb;
+				TargetAttributes = {
+					46CDFA6D1A34F2D100D45AAD = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					46CDFA821A34F2D100D45AAD = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 46CDFA6D1A34F2D100D45AAD;
+					};
+				};
+			};
+			buildConfigurationList = 46CDFA691A34F2D100D45AAD /* Build configuration list for PBXProject "Weigh In" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46CDFA651A34F2D100D45AAD;
+			productRefGroup = 46CDFA6F1A34F2D100D45AAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46CDFA6D1A34F2D100D45AAD /* Weigh In */,
+				46CDFA821A34F2D100D45AAD /* Weigh InTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46CDFA6C1A34F2D100D45AAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46CDFA791A34F2D100D45AAD /* Main.storyboard in Resources */,
+				46CDFA7E1A34F2D100D45AAD /* LaunchScreen.xib in Resources */,
+				46CDFA7B1A34F2D100D45AAD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46CDFA811A34F2D100D45AAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46CDFA6A1A34F2D100D45AAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46CDFA761A34F2D100D45AAD /* ViewController.swift in Sources */,
+				46CDFA741A34F2D100D45AAD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46CDFA7F1A34F2D100D45AAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46CDFA8A1A34F2D100D45AAD /* Weigh_InTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46CDFA851A34F2D100D45AAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46CDFA6D1A34F2D100D45AAD /* Weigh In */;
+			targetProxy = 46CDFA841A34F2D100D45AAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46CDFA771A34F2D100D45AAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46CDFA781A34F2D100D45AAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46CDFA7C1A34F2D100D45AAD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46CDFA7D1A34F2D100D45AAD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46CDFA8B1A34F2D100D45AAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46CDFA8C1A34F2D100D45AAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46CDFA8E1A34F2D100D45AAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Weigh In/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46CDFA8F1A34F2D100D45AAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Weigh In/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46CDFA911A34F2D100D45AAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Weigh InTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weigh In.app/Weigh In";
+			};
+			name = Debug;
+		};
+		46CDFA921A34F2D100D45AAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Weigh InTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weigh In.app/Weigh In";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46CDFA691A34F2D100D45AAD /* Build configuration list for PBXProject "Weigh In" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46CDFA8B1A34F2D100D45AAD /* Debug */,
+				46CDFA8C1A34F2D100D45AAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46CDFA8D1A34F2D100D45AAD /* Build configuration list for PBXNativeTarget "Weigh In" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46CDFA8E1A34F2D100D45AAD /* Debug */,
+				46CDFA8F1A34F2D100D45AAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46CDFA901A34F2D100D45AAD /* Build configuration list for PBXNativeTarget "Weigh InTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46CDFA911A34F2D100D45AAD /* Debug */,
+				46CDFA921A34F2D100D45AAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46CDFA661A34F2D100D45AAD /* Project object */;
+}
