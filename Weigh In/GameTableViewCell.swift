@@ -20,7 +20,7 @@ class GameTableViewCell: UITableViewCell {
     }
     
     init(name: String, image: UIImage, percent: String, date: String) {
-        self.gameNameLabel.text = name
+        self.gameNameLabel.text = "fuck bitches"
         self.gameImageView.image = image
         self.percentCompleteLabel.text = percent
         self.dateLabel.text = date
