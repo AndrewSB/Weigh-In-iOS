@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "46CDFA6D1A34F2D100D45AAD"
-               BuildableName = "Weigh In.app"
-               BlueprintName = "Weigh In"
-               ReferencedContainer = "container:Weigh In.xcodeproj">
+               BlueprintIdentifier = "6DD7B9191A026C1E0099C860"
+               BuildableName = "Dice.app"
+               BlueprintName = "Dice"
+               ReferencedContainer = "container:Dice.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "46CDFA821A34F2D100D45AAD"
-               BuildableName = "Weigh InTests.xctest"
-               BlueprintName = "Weigh InTests"
-               ReferencedContainer = "container:Weigh In.xcodeproj">
+               BlueprintIdentifier = "6DD7B9351A026C1E0099C860"
+               BuildableName = "DiceTests.xctest"
+               BlueprintName = "DiceTests"
+               ReferencedContainer = "container:Dice.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "46CDFA821A34F2D100D45AAD"
-               BuildableName = "Weigh InTests.xctest"
-               BlueprintName = "Weigh InTests"
-               ReferencedContainer = "container:Weigh In.xcodeproj">
+               BlueprintIdentifier = "6DD7B9351A026C1E0099C860"
+               BuildableName = "DiceTests.xctest"
+               BlueprintName = "DiceTests"
+               ReferencedContainer = "container:Dice.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "46CDFA6D1A34F2D100D45AAD"
-            BuildableName = "Weigh In.app"
-            BlueprintName = "Weigh In"
-            ReferencedContainer = "container:Weigh In.xcodeproj">
+            BlueprintIdentifier = "6DD7B9191A026C1E0099C860"
+            BuildableName = "Dice.app"
+            BlueprintName = "Dice"
+            ReferencedContainer = "container:Dice.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "46CDFA6D1A34F2D100D45AAD"
-            BuildableName = "Weigh In.app"
-            BlueprintName = "Weigh In"
-            ReferencedContainer = "container:Weigh In.xcodeproj">
+            BlueprintIdentifier = "6DD7B9191A026C1E0099C860"
+            BuildableName = "Dice.app"
+            BlueprintName = "Dice"
+            ReferencedContainer = "container:Dice.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "46CDFA6D1A34F2D100D45AAD"
-            BuildableName = "Weigh In.app"
-            BlueprintName = "Weigh In"
-            ReferencedContainer = "container:Weigh In.xcodeproj">
+            BlueprintIdentifier = "6DD7B9191A026C1E0099C860"
+            BuildableName = "Dice.app"
+            BlueprintName = "Dice"
+            ReferencedContainer = "container:Dice.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -7,46 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46CDFA741A34F2D100D45AAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDFA731A34F2D100D45AAD /* AppDelegate.swift */; };
-		46CDFA761A34F2D100D45AAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDFA751A34F2D100D45AAD /* ViewController.swift */; };
-		46CDFA791A34F2D100D45AAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46CDFA771A34F2D100D45AAD /* Main.storyboard */; };
-		46CDFA7B1A34F2D100D45AAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46CDFA7A1A34F2D100D45AAD /* Images.xcassets */; };
-		46CDFA7E1A34F2D100D45AAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46CDFA7C1A34F2D100D45AAD /* LaunchScreen.xib */; };
-		46CDFA8A1A34F2D100D45AAD /* Weigh_InTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDFA891A34F2D100D45AAD /* Weigh_InTests.swift */; };
+		4664F5711A39203900D33805 /* LeaderboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4664F5701A39203900D33805 /* LeaderboardViewController.m */; };
+		6DD7B9201A026C1E0099C860 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD7B91F1A026C1E0099C860 /* main.m */; };
+		6DD7B9231A026C1E0099C860 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD7B9221A026C1E0099C860 /* AppDelegate.m */; };
+		6DD7B9261A026C1E0099C860 /* Dice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6DD7B9241A026C1E0099C860 /* Dice.xcdatamodeld */; };
+		6DD7B9291A026C1E0099C860 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD7B9281A026C1E0099C860 /* ViewController.m */; };
+		6DD7B92C1A026C1E0099C860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD7B92A1A026C1E0099C860 /* Main.storyboard */; };
+		6DD7B92E1A026C1E0099C860 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DD7B92D1A026C1E0099C860 /* Images.xcassets */; };
+		6DD7B9311A026C1E0099C860 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DD7B92F1A026C1E0099C860 /* LaunchScreen.xib */; };
+		6DD7B93D1A026C1E0099C860 /* DiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD7B93C1A026C1E0099C860 /* DiceTests.m */; };
+		6DD7B9491A026C830099C860 /* DiceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD7B9471A026C830099C860 /* DiceTableViewCell.m */; };
+		6DD7B94A1A026C830099C860 /* DiceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DD7B9481A026C830099C860 /* DiceTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		46CDFA841A34F2D100D45AAD /* PBXContainerItemProxy */ = {
+		6DD7B9371A026C1E0099C860 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 46CDFA661A34F2D100D45AAD /* Project object */;
+			containerPortal = 6DD7B9121A026C1E0099C860 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 46CDFA6D1A34F2D100D45AAD;
-			remoteInfo = "Weigh In";
+			remoteGlobalIDString = 6DD7B9191A026C1E0099C860;
+			remoteInfo = Dice;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		46CDFA6E1A34F2D100D45AAD /* Weigh In.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weigh In.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		46CDFA721A34F2D100D45AAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46CDFA731A34F2D100D45AAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		46CDFA751A34F2D100D45AAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		46CDFA781A34F2D100D45AAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		46CDFA7A1A34F2D100D45AAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		46CDFA7D1A34F2D100D45AAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		46CDFA831A34F2D100D45AAD /* Weigh InTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weigh InTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		46CDFA881A34F2D100D45AAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46CDFA891A34F2D100D45AAD /* Weigh_InTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weigh_InTests.swift; sourceTree = "<group>"; };
+		4664F56F1A39203900D33805 /* LeaderboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaderboardViewController.h; sourceTree = "<group>"; };
+		4664F5701A39203900D33805 /* LeaderboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaderboardViewController.m; sourceTree = "<group>"; };
+		6DD7B91A1A026C1E0099C860 /* Weigh In.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weigh In.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DD7B91E1A026C1E0099C860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DD7B91F1A026C1E0099C860 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6DD7B9211A026C1E0099C860 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6DD7B9221A026C1E0099C860 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6DD7B9251A026C1E0099C860 /* Dice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dice.xcdatamodel; sourceTree = "<group>"; };
+		6DD7B9271A026C1E0099C860 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6DD7B9281A026C1E0099C860 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6DD7B92B1A026C1E0099C860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DD7B92D1A026C1E0099C860 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6DD7B9301A026C1E0099C860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6DD7B9361A026C1E0099C860 /* Weigh InTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weigh InTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DD7B93B1A026C1E0099C860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DD7B93C1A026C1E0099C860 /* DiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiceTests.m; sourceTree = "<group>"; };
+		6DD7B9461A026C830099C860 /* DiceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiceTableViewCell.h; sourceTree = "<group>"; };
+		6DD7B9471A026C830099C860 /* DiceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiceTableViewCell.m; sourceTree = "<group>"; };
+		6DD7B9481A026C830099C860 /* DiceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiceTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		46CDFA6B1A34F2D100D45AAD /* Frameworks */ = {
+		6DD7B9171A026C1E0099C860 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46CDFA801A34F2D100D45AAD /* Frameworks */ = {
+		6DD7B9331A026C1E0099C860 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,58 +70,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		46CDFA651A34F2D100D45AAD = {
+		6DD7B9111A026C1E0099C860 = {
 			isa = PBXGroup;
 			children = (
-				46CDFA701A34F2D100D45AAD /* Weigh In */,
-				46CDFA861A34F2D100D45AAD /* Weigh InTests */,
-				46CDFA6F1A34F2D100D45AAD /* Products */,
+				6DD7B91C1A026C1E0099C860 /* Dice */,
+				6DD7B9391A026C1E0099C860 /* DiceTests */,
+				6DD7B91B1A026C1E0099C860 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		46CDFA6F1A34F2D100D45AAD /* Products */ = {
+		6DD7B91B1A026C1E0099C860 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				46CDFA6E1A34F2D100D45AAD /* Weigh In.app */,
-				46CDFA831A34F2D100D45AAD /* Weigh InTests.xctest */,
+				6DD7B91A1A026C1E0099C860 /* Weigh In.app */,
+				6DD7B9361A026C1E0099C860 /* Weigh InTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		46CDFA701A34F2D100D45AAD /* Weigh In */ = {
+		6DD7B91C1A026C1E0099C860 /* Dice */ = {
 			isa = PBXGroup;
 			children = (
-				46CDFA731A34F2D100D45AAD /* AppDelegate.swift */,
-				46CDFA751A34F2D100D45AAD /* ViewController.swift */,
-				46CDFA771A34F2D100D45AAD /* Main.storyboard */,
-				46CDFA7A1A34F2D100D45AAD /* Images.xcassets */,
-				46CDFA7C1A34F2D100D45AAD /* LaunchScreen.xib */,
-				46CDFA711A34F2D100D45AAD /* Supporting Files */,
+				6DD7B9211A026C1E0099C860 /* AppDelegate.h */,
+				6DD7B9221A026C1E0099C860 /* AppDelegate.m */,
+				6DD7B9271A026C1E0099C860 /* ViewController.h */,
+				6DD7B9281A026C1E0099C860 /* ViewController.m */,
+				4664F56F1A39203900D33805 /* LeaderboardViewController.h */,
+				4664F5701A39203900D33805 /* LeaderboardViewController.m */,
+				6DD7B92A1A026C1E0099C860 /* Main.storyboard */,
+				6DD7B92D1A026C1E0099C860 /* Images.xcassets */,
+				6DD7B92F1A026C1E0099C860 /* LaunchScreen.xib */,
+				6DD7B9241A026C1E0099C860 /* Dice.xcdatamodeld */,
+				6DD7B91D1A026C1E0099C860 /* Supporting Files */,
+				6DD7B9461A026C830099C860 /* DiceTableViewCell.h */,
+				6DD7B9471A026C830099C860 /* DiceTableViewCell.m */,
+				6DD7B9481A026C830099C860 /* DiceTableViewCell.xib */,
 			);
-			path = "Weigh In";
+			path = Dice;
 			sourceTree = "<group>";
 		};
-		46CDFA711A34F2D100D45AAD /* Supporting Files */ = {
+		6DD7B91D1A026C1E0099C860 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				46CDFA721A34F2D100D45AAD /* Info.plist */,
+				6DD7B91E1A026C1E0099C860 /* Info.plist */,
+				6DD7B91F1A026C1E0099C860 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		46CDFA861A34F2D100D45AAD /* Weigh InTests */ = {
+		6DD7B9391A026C1E0099C860 /* DiceTests */ = {
 			isa = PBXGroup;
 			children = (
-				46CDFA891A34F2D100D45AAD /* Weigh_InTests.swift */,
-				46CDFA871A34F2D100D45AAD /* Supporting Files */,
+				6DD7B93C1A026C1E0099C860 /* DiceTests.m */,
+				6DD7B93A1A026C1E0099C860 /* Supporting Files */,
 			);
-			path = "Weigh InTests";
+			path = DiceTests;
 			sourceTree = "<group>";
 		};
-		46CDFA871A34F2D100D45AAD /* Supporting Files */ = {
+		6DD7B93A1A026C1E0099C860 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				46CDFA881A34F2D100D45AAD /* Info.plist */,
+				6DD7B93B1A026C1E0099C860 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -115,60 +138,61 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		46CDFA6D1A34F2D100D45AAD /* Weigh In */ = {
+		6DD7B9191A026C1E0099C860 /* Weigh In */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46CDFA8D1A34F2D100D45AAD /* Build configuration list for PBXNativeTarget "Weigh In" */;
+			buildConfigurationList = 6DD7B9401A026C1E0099C860 /* Build configuration list for PBXNativeTarget "Weigh In" */;
 			buildPhases = (
-				46CDFA6A1A34F2D100D45AAD /* Sources */,
-				46CDFA6B1A34F2D100D45AAD /* Frameworks */,
-				46CDFA6C1A34F2D100D45AAD /* Resources */,
+				6DD7B9161A026C1E0099C860 /* Sources */,
+				6DD7B9171A026C1E0099C860 /* Frameworks */,
+				6DD7B9181A026C1E0099C860 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Weigh In";
-			productName = "Weigh In";
-			productReference = 46CDFA6E1A34F2D100D45AAD /* Weigh In.app */;
+			productName = Dice;
+			productReference = 6DD7B91A1A026C1E0099C860 /* Weigh In.app */;
 			productType = "com.apple.product-type.application";
 		};
-		46CDFA821A34F2D100D45AAD /* Weigh InTests */ = {
+		6DD7B9351A026C1E0099C860 /* Weigh InTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46CDFA901A34F2D100D45AAD /* Build configuration list for PBXNativeTarget "Weigh InTests" */;
+			buildConfigurationList = 6DD7B9431A026C1E0099C860 /* Build configuration list for PBXNativeTarget "Weigh InTests" */;
 			buildPhases = (
-				46CDFA7F1A34F2D100D45AAD /* Sources */,
-				46CDFA801A34F2D100D45AAD /* Frameworks */,
-				46CDFA811A34F2D100D45AAD /* Resources */,
+				6DD7B9321A026C1E0099C860 /* Sources */,
+				6DD7B9331A026C1E0099C860 /* Frameworks */,
+				6DD7B9341A026C1E0099C860 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				46CDFA851A34F2D100D45AAD /* PBXTargetDependency */,
+				6DD7B9381A026C1E0099C860 /* PBXTargetDependency */,
 			);
 			name = "Weigh InTests";
-			productName = "Weigh InTests";
-			productReference = 46CDFA831A34F2D100D45AAD /* Weigh InTests.xctest */;
+			productName = DiceTests;
+			productReference = 6DD7B9361A026C1E0099C860 /* Weigh InTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		46CDFA661A34F2D100D45AAD /* Project object */ = {
+		6DD7B9121A026C1E0099C860 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
-				ORGANIZATIONNAME = asb;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Damien Laughton";
 				TargetAttributes = {
-					46CDFA6D1A34F2D100D45AAD = {
-						CreatedOnToolsVersion = 6.1.1;
+					6DD7B9191A026C1E0099C860 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = JQUR3MJ3GB;
 					};
-					46CDFA821A34F2D100D45AAD = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 46CDFA6D1A34F2D100D45AAD;
+					6DD7B9351A026C1E0099C860 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 6DD7B9191A026C1E0099C860;
 					};
 				};
 			};
-			buildConfigurationList = 46CDFA691A34F2D100D45AAD /* Build configuration list for PBXProject "Weigh In" */;
+			buildConfigurationList = 6DD7B9151A026C1E0099C860 /* Build configuration list for PBXProject "Weigh In" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -176,29 +200,30 @@
 				en,
 				Base,
 			);
-			mainGroup = 46CDFA651A34F2D100D45AAD;
-			productRefGroup = 46CDFA6F1A34F2D100D45AAD /* Products */;
+			mainGroup = 6DD7B9111A026C1E0099C860;
+			productRefGroup = 6DD7B91B1A026C1E0099C860 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				46CDFA6D1A34F2D100D45AAD /* Weigh In */,
-				46CDFA821A34F2D100D45AAD /* Weigh InTests */,
+				6DD7B9191A026C1E0099C860 /* Weigh In */,
+				6DD7B9351A026C1E0099C860 /* Weigh InTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		46CDFA6C1A34F2D100D45AAD /* Resources */ = {
+		6DD7B9181A026C1E0099C860 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46CDFA791A34F2D100D45AAD /* Main.storyboard in Resources */,
-				46CDFA7E1A34F2D100D45AAD /* LaunchScreen.xib in Resources */,
-				46CDFA7B1A34F2D100D45AAD /* Images.xcassets in Resources */,
+				6DD7B92C1A026C1E0099C860 /* Main.storyboard in Resources */,
+				6DD7B9311A026C1E0099C860 /* LaunchScreen.xib in Resources */,
+				6DD7B94A1A026C830099C860 /* DiceTableViewCell.xib in Resources */,
+				6DD7B92E1A026C1E0099C860 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46CDFA811A34F2D100D45AAD /* Resources */ = {
+		6DD7B9341A026C1E0099C860 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -208,46 +233,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		46CDFA6A1A34F2D100D45AAD /* Sources */ = {
+		6DD7B9161A026C1E0099C860 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46CDFA761A34F2D100D45AAD /* ViewController.swift in Sources */,
-				46CDFA741A34F2D100D45AAD /* AppDelegate.swift in Sources */,
+				4664F5711A39203900D33805 /* LeaderboardViewController.m in Sources */,
+				6DD7B9491A026C830099C860 /* DiceTableViewCell.m in Sources */,
+				6DD7B9231A026C1E0099C860 /* AppDelegate.m in Sources */,
+				6DD7B9201A026C1E0099C860 /* main.m in Sources */,
+				6DD7B9291A026C1E0099C860 /* ViewController.m in Sources */,
+				6DD7B9261A026C1E0099C860 /* Dice.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46CDFA7F1A34F2D100D45AAD /* Sources */ = {
+		6DD7B9321A026C1E0099C860 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46CDFA8A1A34F2D100D45AAD /* Weigh_InTests.swift in Sources */,
+				6DD7B93D1A026C1E0099C860 /* DiceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		46CDFA851A34F2D100D45AAD /* PBXTargetDependency */ = {
+		6DD7B9381A026C1E0099C860 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 46CDFA6D1A34F2D100D45AAD /* Weigh In */;
-			targetProxy = 46CDFA841A34F2D100D45AAD /* PBXContainerItemProxy */;
+			target = 6DD7B9191A026C1E0099C860 /* Weigh In */;
+			targetProxy = 6DD7B9371A026C1E0099C860 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		46CDFA771A34F2D100D45AAD /* Main.storyboard */ = {
+		6DD7B92A1A026C1E0099C860 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				46CDFA781A34F2D100D45AAD /* Base */,
+				6DD7B92B1A026C1E0099C860 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		46CDFA7C1A34F2D100D45AAD /* LaunchScreen.xib */ = {
+		6DD7B92F1A026C1E0099C860 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				46CDFA7D1A34F2D100D45AAD /* Base */,
+				6DD7B9301A026C1E0099C860 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -255,7 +284,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		46CDFA8B1A34F2D100D45AAD /* Debug */ = {
+		6DD7B93E1A026C1E0099C860 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -289,15 +318,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		46CDFA8C1A34F2D100D45AAD /* Release */ = {
+		6DD7B93F1A026C1E0099C860 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -325,34 +354,35 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		46CDFA8E1A34F2D100D45AAD /* Debug */ = {
+		6DD7B9411A026C1E0099C860 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Weigh In/Info.plist";
+				INFOPLIST_FILE = Dice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Weigh In";
 			};
 			name = Debug;
 		};
-		46CDFA8F1A34F2D100D45AAD /* Release */ = {
+		6DD7B9421A026C1E0099C860 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Weigh In/Info.plist";
+				INFOPLIST_FILE = Dice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Weigh In";
 			};
 			name = Release;
 		};
-		46CDFA911A34F2D100D45AAD /* Debug */ = {
+		6DD7B9441A026C1E0099C860 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -364,14 +394,14 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Weigh InTests/Info.plist";
+				INFOPLIST_FILE = DiceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weigh In.app/Weigh In";
+				PRODUCT_NAME = "Weigh InTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dice.app/Dice";
 			};
 			name = Debug;
 		};
-		46CDFA921A34F2D100D45AAD /* Release */ = {
+		6DD7B9451A026C1E0099C860 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -379,42 +409,57 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Weigh InTests/Info.plist";
+				INFOPLIST_FILE = DiceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weigh In.app/Weigh In";
+				PRODUCT_NAME = "Weigh InTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dice.app/Dice";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		46CDFA691A34F2D100D45AAD /* Build configuration list for PBXProject "Weigh In" */ = {
+		6DD7B9151A026C1E0099C860 /* Build configuration list for PBXProject "Weigh In" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46CDFA8B1A34F2D100D45AAD /* Debug */,
-				46CDFA8C1A34F2D100D45AAD /* Release */,
+				6DD7B93E1A026C1E0099C860 /* Debug */,
+				6DD7B93F1A026C1E0099C860 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46CDFA8D1A34F2D100D45AAD /* Build configuration list for PBXNativeTarget "Weigh In" */ = {
+		6DD7B9401A026C1E0099C860 /* Build configuration list for PBXNativeTarget "Weigh In" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46CDFA8E1A34F2D100D45AAD /* Debug */,
-				46CDFA8F1A34F2D100D45AAD /* Release */,
+				6DD7B9411A026C1E0099C860 /* Debug */,
+				6DD7B9421A026C1E0099C860 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		46CDFA901A34F2D100D45AAD /* Build configuration list for PBXNativeTarget "Weigh InTests" */ = {
+		6DD7B9431A026C1E0099C860 /* Build configuration list for PBXNativeTarget "Weigh InTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46CDFA911A34F2D100D45AAD /* Debug */,
-				46CDFA921A34F2D100D45AAD /* Release */,
+				6DD7B9441A026C1E0099C860 /* Debug */,
+				6DD7B9451A026C1E0099C860 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6DD7B9241A026C1E0099C860 /* Dice.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6DD7B9251A026C1E0099C860 /* Dice.xcdatamodel */,
+			);
+			currentVersion = 6DD7B9251A026C1E0099C860 /* Dice.xcdatamodel */;
+			path = Dice.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = 46CDFA661A34F2D100D45AAD /* Project object */;
+	rootObject = 6DD7B9121A026C1E0099C860 /* Project object */;
 }
