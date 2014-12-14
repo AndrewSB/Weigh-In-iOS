@@ -1,4 +1,4 @@
-Weigh-In---iOS
+Weigh In - iOS App
 ==============
 
-iOS app for freshman honor project - Gamified Mechanical Turk with a drastically lower barrier of entry
+iOS app for Weigh In - Gamified Mechanical Turk with a drastically lower barrier of entry.
